@@ -14,6 +14,7 @@
 		E16425B91BD25F950051DD95 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E16425B81BD25F950051DD95 /* Images.xcassets */; };
 		E16425BC1BD25F950051DD95 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = E16425BA1BD25F950051DD95 /* LaunchScreen.xib */; };
 		E16425C81BD25F950051DD95 /* DHSTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E16425C71BD25F950051DD95 /* DHSTests.m */; };
+		E16425D31BD25FAF0051DD95 /* sun.png in Resources */ = {isa = PBXBuildFile; fileRef = E16425D21BD25FAF0051DD95 /* sun.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,7 @@
 		E16425C11BD25F950051DD95 /* DHSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DHSTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E16425C61BD25F950051DD95 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E16425C71BD25F950051DD95 /* DHSTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DHSTests.m; sourceTree = "<group>"; };
+		E16425D21BD25FAF0051DD95 /* sun.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = sun.png; path = ../../../Downloads/sun.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +83,7 @@
 		E16425AA1BD25F950051DD95 /* DHS */ = {
 			isa = PBXGroup;
 			children = (
+				E16425D11BD25F9A0051DD95 /* photo */,
 				E16425AF1BD25F950051DD95 /* AppDelegate.h */,
 				E16425B01BD25F950051DD95 /* AppDelegate.m */,
 				E16425B21BD25F950051DD95 /* ViewController.h */,
@@ -117,6 +120,14 @@
 				E16425C61BD25F950051DD95 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E16425D11BD25F9A0051DD95 /* photo */ = {
+			isa = PBXGroup;
+			children = (
+				E16425D21BD25FAF0051DD95 /* sun.png */,
+			);
+			name = photo;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -200,6 +211,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E16425B71BD25F950051DD95 /* Main.storyboard in Resources */,
+				E16425D31BD25FAF0051DD95 /* sun.png in Resources */,
 				E16425BC1BD25F950051DD95 /* LaunchScreen.xib in Resources */,
 				E16425B91BD25F950051DD95 /* Images.xcassets in Resources */,
 			);

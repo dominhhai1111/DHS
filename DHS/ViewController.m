@@ -9,19 +9,19 @@
 #import "ViewController.h"
 
 @interface ViewController ()
-
+{
+    UIImageView* sun;
+}
 @end
 
 @implementation ViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+    sun = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"sun"]];
+    sun.center = CGPointMake(200, 200);
+    [self.view addSubview:sun];
 }
 
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
-}
 
 @end
